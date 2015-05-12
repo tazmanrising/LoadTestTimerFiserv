@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "UploadDocument";
+}
+
+
+<div class="border-dotted pad-content-small indent-top">
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <div class="control-group">
+            <label class="control-label" for="description">
+                File:
+            </label>
+            <div class="controls">
+                <input type="file" class="input-xlarge" id="file" name="file">
+            </div>
+            <div class="form-actions">
+                <button type="submit" data-loading-text="Loading..." class="btn btn-inverse">
+                    Upload Document
+                </button>
+                <a href="@Url.Action("Index", "Home")" class="btn" data-dismiss="modal">Cancel</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,7 @@
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\x64\Debug\EldosFileLib.dll
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\x64\Debug\EldosFileLib.pdb
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\x64\Debug\System.Web.Mvc.dll
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\x64\Debug\System.Web.Mvc.xml
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\obj\x64\Debug\EldosFileLib.dll
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\obj\x64\Debug\EldosFileLib.pdb
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\obj\x64\Debug\EldosFileLib.csprojResolveAssemblyReference.cache

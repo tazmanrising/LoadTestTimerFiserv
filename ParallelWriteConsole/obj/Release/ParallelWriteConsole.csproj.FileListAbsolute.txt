@@ -1,0 +1,11 @@
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\ParallelWriteConsole.exe.config
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\ParallelWriteConsole.exe
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\ParallelWriteConsole.pdb
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\EldosFileLib.dll
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\System.Web.Mvc.dll
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\SolFS5Net.dll
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\EldosFileLib.pdb
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\bin\Release\System.Web.Mvc.xml
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\obj\Release\ParallelWriteConsole.csprojResolveAssemblyReference.cache
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\obj\Release\ParallelWriteConsole.exe
+C:\projects\eldosFile\WebAppEldos\ParallelWriteConsole\obj\Release\ParallelWriteConsole.pdb

@@ -1,0 +1,8 @@
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\obj\64bit\EldosFileLib.csprojResolveAssemblyReference.cache
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\64bit\EldosFileLib.dll
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\64bit\EldosFileLib.pdb
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\64bit\SolFS5Net.dll
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\64bit\System.Web.Mvc.dll
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\bin\64bit\System.Web.Mvc.xml
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\obj\64bit\EldosFileLib.dll
+C:\projects\eldosFile\WebAppEldos\EldosFileLib\obj\64bit\EldosFileLib.pdb

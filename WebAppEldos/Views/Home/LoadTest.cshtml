@@ -1,0 +1,110 @@
+﻿@model EldosFileLib.LoadConfiguration
+@{
+    ViewBag.Title = "LoadTest";
+}
+
+<h2>LoadTest</h2>
+@using (Html.BeginForm("LoadTest", "Home", FormMethod.Post))
+{
+    <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Test Group</span>
+        <input type="text" class="form-control" name="TestGroup" placeholder="Test Group Name" aria-describedby="basic-addon1">
+    </div>
+    <div class="form-group">
+        <div class="control-group">
+            <label class="control-label" for="FileSizes">File Sizes:</label>
+            <div class="controls">
+                <select name="FileSize">
+                    <option value="50K">50K</option>
+                    <option value="75K">75K</option>
+                    <option value="100K">100K</option>
+                    <option value="5MB">5MB</option>
+                    <option value="10MB">10MB</option>
+                    <option value="50MB">50MB</option>
+                    <option value="100MB">100MB</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="control-group">
+            <label class="control-label" for="NumberOfFiles">Number of Files:</label>
+            <div class="controls">
+                <select name="NumberOfFiles">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="9">10</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="control-group">
+            <label class="control-label" for="NumberOfThreads">Number of Threads (Users):</label>
+            <div class="controls">
+                <select name="NumberOfThreads">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="control-group">
+            <label class="control-label" for="LoadTime">Times To Loop:</label>
+            <blockquote>Number of times to re-run the process</blockquote>
+            <div class="controls">
+                <select name="NumberOfLoops">
+                    <option value="1">0</option>
+                    <option value="1">1</option>
+                    <option value="10">10</option>
+                    <option value="100">100</option>
+                    <option value="1000">1000</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="control-group">
+            <label class="control-label" for="LoadTime">Load Time in(Mins):</label>
+            <blockquote>This will re-run the process for a set number of Mins.</blockquote>
+            <div class="controls">
+                <select name="LoadTime">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-default" />
+}

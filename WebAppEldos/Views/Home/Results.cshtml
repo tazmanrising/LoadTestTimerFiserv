@@ -1,0 +1,22 @@
+﻿@model EldosFileLib.LogDetail
+@{
+    ViewBag.Title = "Results";
+}
+
+<h2>Log Results</h2>
+<div class="bs-callout bs-callout-warning" id="callout-btn-group-justified-dbl-border">
+    <h4 id="handling-borders">@Model.Configuration.TestGroup<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h4>
+    <p><code>Number of Test:</code>@Model.NumberOfTest</p>
+    <p><code>Time To Run Test:</code>@Model.ElapseTime</p>
+    <hr />
+    <h5>Configuration</h5>
+    <p><code>Size:</code>@Model.Configuration.FileSize</p>
+    <p><code>Number Of Files:</code>@Model.Configuration.NumberOfFiles</p>
+    <p><code>Number Of Threads:</code>@Model.Configuration.NumberOfThreads</p>
+    <p><code>Number Of Loops:</code>@Model.Configuration.NumberOfLoops</p>
+    <p><code>Load Time:</code>@Model.Configuration.LoadTime</p>
+</div>
+<hr />
+<h5>Files</h5>
+<hr />
+@Html.Partial("_LogData", Model.LogFileDetails)

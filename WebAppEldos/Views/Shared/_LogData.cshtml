@@ -1,0 +1,17 @@
+﻿@model List<EldosFileLib.LogFileDetail>
+
+@if (Model != null)
+{
+    foreach (EldosFileLib.LogFileDetail logDetail in Model)
+    {
+        <div class="bs-callout bs-callout-warning" id="callout-btn-group-justified-dbl-border">
+            <h4 id="handling-borders">@logDetail.ProcessStyle<a class="anchorjs-link" href="#"><span class="anchorjs-icon"></span></a></h4>
+            <p><code>File Name:</code>@logDetail.FileName</p>
+            <p><code>File Type:</code>@logDetail.FileType</p>
+            <p><code>Completion:</code>@logDetail.ProcessTime</p>
+            <p><code>Size:</code>@logDetail.Size</p>
+        </div>
+        <hr />
+    }
+}
+
